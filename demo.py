@@ -1,2 +1,17 @@
-for x in range(20):
-    print("hello, where are You right now")
+import random 
+from time import sleep
+count  = 1 
+while True:
+    my_num = int(input("Number 1 to 10 : "))
+    g_num = random.randint(1,10)
+    if g_num == my_num:
+        print(f" {count} times lost")
+        sleeep(1)
+        print("Congratulation , finally You Win !!")
+        break
+    else:
+        print("{my_num} that a Wrong Number")
+        sleep(1)
+        print("Try Again , May Be Your Will be Win Next Try")
+        
+              

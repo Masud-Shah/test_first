@@ -6,7 +6,7 @@ while True:
     g_num = random.randint(1,10)
     if g_num == int(my_num):
         print(f" {count} times lost")
-        sleeep(1)
+        sleep(1)
         print("Congratulation , finally You Win !!")
         break
     else:

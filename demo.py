@@ -2,9 +2,9 @@ import random
 from time import sleep
 count  = 1 
 while True:
-    my_num = int(input("Number 1 to 10 : "))
+    my_num = input("Number 1 to 10 : ")
     g_num = random.randint(1,10)
-    if g_num == my_num:
+    if g_num == int(my_num):
         print(f" {count} times lost")
         sleeep(1)
         print("Congratulation , finally You Win !!")

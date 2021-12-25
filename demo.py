@@ -13,5 +13,8 @@ while True:
         print(f"{my_num} that a Wrong Number")
         sleep(1)
         print("Try Again , May Be Your Will be Win Next Try")
+        count += 1
+        continue
+        
         
               

@@ -1,2 +1,3 @@
 Python is High level Programming langauge 
 dynamically typed interpreted and easy to learn
+Python create Guido van Rassom

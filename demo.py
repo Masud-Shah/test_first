@@ -10,7 +10,7 @@ while True:
         print("Congratulation , finally You Win !!")
         break
     else:
-        print("{my_num} that a Wrong Number")
+        print(f"{my_num} that a Wrong Number")
         sleep(1)
         print("Try Again , May Be Your Will be Win Next Try")
         
